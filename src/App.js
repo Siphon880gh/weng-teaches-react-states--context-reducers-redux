@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import SandboxUseContext from "./sandboxUseContext/Parent"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{padding:"20px"}}>
+      <h1>UseContext vs Redux</h1>
+      <p>By Weng Fei Fung. For teaching students. Click the numbers. They're counters.</p>
+      <SandboxUseContext/>
     </div>
   );
 }
