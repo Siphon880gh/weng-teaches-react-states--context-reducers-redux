@@ -1,0 +1,11 @@
+.playing {
+    color: green;
+}
+.paused {
+    color: blue; /* Paused or on "ice" */
+    opacity: 0.65;
+}
+.stopped {
+
+    color: red;
+}
